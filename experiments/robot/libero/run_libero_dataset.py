@@ -1,7 +1,8 @@
 """
 run_libero_eval.py
 
-Runs a model in a LIBERO simulation environment.
+Runs a model in a LIBERO simulation environment and logs per-episode rollouts
+(images/actions/meta) to build a dataset for finetuning (e.g., RLDS conversion later).
 
 Usage:
     # OpenVLA:
@@ -14,18 +15,21 @@ Usage:
         --run_id_note <OPTIONAL TAG TO INSERT INTO RUN ID FOR LOGGING> \
         --use_wandb [ True | False ] \
         --wandb_project <PROJECT> \
-        --wandb_entity <ENTITY>
+        --wandb_entity <ENTITY> \
+        --log_dataset True \
+        --dataset_dir ./rollouts_libero
 """
 
 import os
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional, Union
+from typing import Optional, Union, List, Dict, Any
 
 import draccus
 import numpy as np
 import tqdm
+from PIL import Image
 from libero.libero import benchmark
 
 import wandb
@@ -49,6 +53,37 @@ from experiments.robot.robot_utils import (
     normalize_gripper_action,
     set_seed_everywhere,
 )
+
+
+def _save_image(array_uint8: np.ndarray, path: Path) -> None:
+    """Save HxWx3 uint8 image to disk as PNG."""
+    Image.fromarray(array_uint8).save(path)
+
+
+def _ensure_dir(path: Path) -> None:
+    """Create directory recursively if not exists."""
+    path.mkdir(parents=True, exist_ok=True)
+
+
+def _save_episode_logs(
+    episode_dir: Path,
+    frames_paths: List[str],
+    actions: np.ndarray,
+    instruction: str,
+    success_flag: int,
+) -> None:
+    """Write actions.npy and meta.json for the episode. Frames are already saved on step loop."""
+    _ensure_dir(episode_dir)
+    np.save(episode_dir / "actions.npy", actions.astype(np.float32))
+    meta = {
+        "instruction": instruction,
+        "success": int(success_flag),
+        "num_steps": int(actions.shape[0]),
+        "frames": frames_paths,
+    }
+    with open(episode_dir / "meta.json", "w") as f:
+        import json
+        json.dump(meta, f, indent=2)
 
 
 @dataclass
@@ -84,6 +119,12 @@ class GenerateConfig:
 
     seed: int = 7                                    # Random Seed (for reproducibility)
 
+    #################################################################################################################
+    # Dataset logging (added)
+    #################################################################################################################
+    log_dataset: bool = True                         # If True, save images/actions/meta per episode
+    dataset_dir: str = "./rollouts_libero"           # Root directory to store rollouts
+
     # fmt: on
 
 
@@ -105,8 +146,6 @@ def eval_libero(cfg: GenerateConfig) -> None:
 
     # [OpenVLA] Check that the model contains the action un-normalization key
     if cfg.model_family == "openvla":
-        # In some cases, the key must be manually modified (e.g. after training on a modified version of the dataset
-        # with the suffix "_no_noops" in the dataset name)
         if cfg.unnorm_key not in model.norm_stats and f"{cfg.unnorm_key}_no_noops" in model.norm_stats:
             cfg.unnorm_key = f"{cfg.unnorm_key}_no_noops"
         assert cfg.unnorm_key in model.norm_stats, f"Action un-norm key {cfg.unnorm_key} not found in VLA `norm_stats`!"
@@ -132,6 +171,11 @@ def eval_libero(cfg: GenerateConfig) -> None:
             project=cfg.wandb_project,
             name=run_id,
         )
+
+    # Prepare dataset root dir if logging
+    dataset_root = Path(cfg.dataset_dir) / run_id if cfg.log_dataset else None
+    if dataset_root is not None:
+        _ensure_dir(dataset_root)
 
     # Initialize LIBERO task suite
     benchmark_dict = benchmark.get_benchmark_dict()
@@ -169,7 +213,9 @@ def eval_libero(cfg: GenerateConfig) -> None:
 
             # Setup
             t = 0
-            replay_images = []
+            replay_images: List[np.ndarray] = []
+            actions_buffer: List[np.ndarray] = []
+            frames_paths: List[str] = []
             if cfg.task_suite_name == "libero_spatial":
                 max_steps = 220  # longest training demo has 193 steps
             elif cfg.task_suite_name == "libero_object":
@@ -180,27 +226,41 @@ def eval_libero(cfg: GenerateConfig) -> None:
                 max_steps = 520  # longest training demo has 505 steps
             elif cfg.task_suite_name == "libero_90":
                 max_steps = 400  # longest training demo has 373 steps
+            else:
+                max_steps = 300
+
+            # Prepare episode dir if logging
+            if dataset_root is not None:
+                episode_dir = dataset_root / f"ep_{total_episodes + 1:06d}"
+                frames_dir = episode_dir / "images"
+                _ensure_dir(frames_dir)
+            else:
+                episode_dir = None
+                frames_dir = None
 
             print(f"Starting episode {task_episodes+1}...")
             log_file.write(f"Starting episode {task_episodes+1}...\n")
+            done = False
             while t < max_steps + cfg.num_steps_wait:
                 try:
-                    # IMPORTANT: Do nothing for the first few timesteps because the simulator drops objects
-                    # and we need to wait for them to fall
+                    # Wait a few timesteps for stabilization
                     if t < cfg.num_steps_wait:
                         obs, reward, done, info = env.step(get_libero_dummy_action(cfg.model_family))
                         t += 1
                         continue
 
-                    # Get preprocessed image
+                    # Get preprocessed image (HxWx3 uint8)
                     img = get_libero_image(obs, resize_size)
-
-                    # Save preprocessed image for replay video
                     replay_images.append(img)
 
-                    # Prepare observations dict
-                    # Note: OpenVLA does not take proprio state as input
-                    observation = {
+                    # Save image to disk immediately if logging
+                    if frames_dir is not None:
+                        img_path = frames_dir / f"frame_{t-cfg.num_steps_wait:05d}.png"
+                        _save_image(img, img_path)
+                        frames_paths.append(str(img_path))
+
+                    # Prepare observations dict for the policy
+                    observation: Dict[str, Any] = {
                         "full_image": img,
                         "state": np.concatenate(
                             (obs["robot0_eef_pos"], quat2axisangle(obs["robot0_eef_quat"]), obs["robot0_gripper_qpos"])
@@ -216,15 +276,15 @@ def eval_libero(cfg: GenerateConfig) -> None:
                         processor=processor,
                     )
 
-                    # Normalize gripper action [0,1] -> [-1,+1] because the environment expects the latter
+                    # Normalize and align gripper action with env convention
                     action = normalize_gripper_action(action, binarize=True)
-
-                    # [OpenVLA] The dataloader flips the sign of the gripper action to align with other datasets
-                    # (0 = close, 1 = open), so flip it back (-1 = open, +1 = close) before executing the action
                     if cfg.model_family == "openvla":
                         action = invert_gripper_action(action)
 
-                    # Execute action in environment
+                    # Save action into buffer before stepping
+                    actions_buffer.append(np.array(action, dtype=np.float32))
+
+                    # Step env
                     obs, reward, done, info = env.step(action.tolist())
                     if done:
                         task_successes += 1
@@ -244,6 +304,24 @@ def eval_libero(cfg: GenerateConfig) -> None:
             save_rollout_video(
                 replay_images, total_episodes, success=done, task_description=task_description, log_file=log_file
             )
+
+            # Save dataset logs (images/actions/meta) if enabled
+            if episode_dir is not None:
+                # Episode-level success flag. If your env exposes info["success"], you can refine this.
+                success_flag = int(bool(done))
+                # Stack actions; lengths should match number of saved frames, but we guard by min length
+                if len(actions_buffer) > 0:
+                    T = len(actions_buffer)
+                    actions_arr = np.stack(actions_buffer[:T], axis=0)
+                else:
+                    actions_arr = np.zeros((0,), dtype=np.float32)
+                _save_episode_logs(
+                    episode_dir=episode_dir,
+                    frames_paths=frames_paths,
+                    actions=actions_arr,
+                    instruction=str(task_description),
+                    success_flag=success_flag,
+                )
 
             # Log current results
             print(f"Success: {done}")
