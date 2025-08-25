@@ -1,0 +1,1001 @@
+Task suite: libero_object
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=1--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=2--success=False--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=3--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=4--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=5--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=6--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 5 (83.3%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=7--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 6 (85.7%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=8--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 7 (87.5%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=9--success=False--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 7 (77.8%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=10--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 8 (80.0%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=11--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 9 (81.8%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=12--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 10 (83.3%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=13--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 11 (84.6%)
+
+Task: pick up the alphabet soup and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=14--success=True--task=pick_up_the_alphabet_soup_and_place_it_in_the_bask.mp4
+Success: True
+# episodes completed so far: 14
+# successes: 12 (85.7%)
+Current task success rate: 0.8571428571428571
+Current total success rate: 0.8571428571428571
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=15--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 15
+# successes: 12 (80.0%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=16--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 16
+# successes: 12 (75.0%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=17--success=True--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 17
+# successes: 13 (76.5%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=18--success=True--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 18
+# successes: 14 (77.8%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=19--success=True--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 19
+# successes: 15 (78.9%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=20--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 20
+# successes: 15 (75.0%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=21--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 21
+# successes: 15 (71.4%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=22--success=True--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 22
+# successes: 16 (72.7%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=23--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 23
+# successes: 16 (69.6%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=24--success=True--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 24
+# successes: 17 (70.8%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=25--success=True--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 18 (72.0%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=26--success=True--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 19 (73.1%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=27--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 27
+# successes: 19 (70.4%)
+
+Task: pick up the cream cheese and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=28--success=False--task=pick_up_the_cream_cheese_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 28
+# successes: 19 (67.9%)
+Current task success rate: 0.5
+Current total success rate: 0.6785714285714286
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=29--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 20 (69.0%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=30--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 21 (70.0%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=31--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 22 (71.0%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=32--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 23 (71.9%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=33--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 24 (72.7%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=34--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 25 (73.5%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=35--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 26 (74.3%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=36--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 27 (75.0%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=37--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 28 (75.7%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=38--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 29 (76.3%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=39--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 30 (76.9%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=40--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 31 (77.5%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=41--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 41
+# successes: 32 (78.0%)
+
+Task: pick up the salad dressing and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=42--success=True--task=pick_up_the_salad_dressing_and_place_it_in_the_bas.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 33 (78.6%)
+Current task success rate: 1.0
+Current total success rate: 0.7857142857142857
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=43--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 43
+# successes: 34 (79.1%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=44--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 35 (79.5%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=45--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 36 (80.0%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=46--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 46
+# successes: 36 (78.3%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=47--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 47
+# successes: 37 (78.7%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=48--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 38 (79.2%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=49--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 49
+# successes: 38 (77.6%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=50--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 50
+# successes: 38 (76.0%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=51--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 51
+# successes: 38 (74.5%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=52--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 52
+# successes: 39 (75.0%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=53--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 53
+# successes: 40 (75.5%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=54--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 54
+# successes: 40 (74.1%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=55--success=False--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 55
+# successes: 40 (72.7%)
+
+Task: pick up the bbq sauce and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=56--success=True--task=pick_up_the_bbq_sauce_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 56
+# successes: 41 (73.2%)
+Current task success rate: 0.5714285714285714
+Current total success rate: 0.7321428571428571
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=57--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 57
+# successes: 42 (73.7%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=58--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 58
+# successes: 43 (74.1%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=59--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 59
+# successes: 44 (74.6%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=60--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 60
+# successes: 45 (75.0%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=61--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 61
+# successes: 46 (75.4%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=62--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 62
+# successes: 47 (75.8%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=63--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 63
+# successes: 48 (76.2%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=64--success=False--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 64
+# successes: 48 (75.0%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=65--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 65
+# successes: 49 (75.4%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=66--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 66
+# successes: 50 (75.8%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=67--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 67
+# successes: 51 (76.1%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=68--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 68
+# successes: 52 (76.5%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=69--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 69
+# successes: 53 (76.8%)
+
+Task: pick up the ketchup and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=70--success=True--task=pick_up_the_ketchup_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 70
+# successes: 54 (77.1%)
+Current task success rate: 0.9285714285714286
+Current total success rate: 0.7714285714285715
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=71--success=False--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 71
+# successes: 54 (76.1%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=72--success=False--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 72
+# successes: 54 (75.0%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=73--success=False--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 73
+# successes: 54 (74.0%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=74--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 74
+# successes: 55 (74.3%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=75--success=False--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 75
+# successes: 55 (73.3%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=76--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 76
+# successes: 56 (73.7%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=77--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 77
+# successes: 57 (74.0%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=78--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 78
+# successes: 58 (74.4%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=79--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 79
+# successes: 59 (74.7%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=80--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 80
+# successes: 60 (75.0%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=81--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 81
+# successes: 61 (75.3%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=82--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 82
+# successes: 62 (75.6%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=83--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 83
+# successes: 63 (75.9%)
+
+Task: pick up the tomato sauce and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=84--success=True--task=pick_up_the_tomato_sauce_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 84
+# successes: 64 (76.2%)
+Current task success rate: 0.7142857142857143
+Current total success rate: 0.7619047619047619
+
+Task: pick up the butter and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=85--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 85
+# successes: 65 (76.5%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=86--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 86
+# successes: 65 (75.6%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=87--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 87
+# successes: 66 (75.9%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=88--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 88
+# successes: 67 (76.1%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=89--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 89
+# successes: 67 (75.3%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=90--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 90
+# successes: 68 (75.6%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=91--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 91
+# successes: 69 (75.8%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=92--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 92
+# successes: 69 (75.0%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=93--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 93
+# successes: 69 (74.2%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=94--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 94
+# successes: 69 (73.4%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=95--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 95
+# successes: 70 (73.7%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=96--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 96
+# successes: 71 (74.0%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=97--success=False--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 97
+# successes: 71 (73.2%)
+
+Task: pick up the butter and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=98--success=True--task=pick_up_the_butter_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 98
+# successes: 72 (73.5%)
+Current task success rate: 0.5714285714285714
+Current total success rate: 0.7346938775510204
+
+Task: pick up the milk and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=99--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 99
+# successes: 73 (73.7%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=100--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 100
+# successes: 74 (74.0%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=101--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 101
+# successes: 75 (74.3%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=102--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 102
+# successes: 76 (74.5%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=103--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 103
+# successes: 77 (74.8%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=104--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 104
+# successes: 78 (75.0%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=105--success=False--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 105
+# successes: 78 (74.3%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=106--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 106
+# successes: 79 (74.5%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=107--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 107
+# successes: 80 (74.8%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=108--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 108
+# successes: 81 (75.0%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=109--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 109
+# successes: 82 (75.2%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=110--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 110
+# successes: 83 (75.5%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=111--success=True--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: True
+# episodes completed so far: 111
+# successes: 84 (75.7%)
+
+Task: pick up the milk and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=112--success=False--task=pick_up_the_milk_and_place_it_in_the_basket.mp4
+Success: False
+# episodes completed so far: 112
+# successes: 84 (75.0%)
+Current task success rate: 0.8571428571428571
+Current total success rate: 0.75
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=113--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: False
+# episodes completed so far: 113
+# successes: 84 (74.3%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=114--success=True--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: True
+# episodes completed so far: 114
+# successes: 85 (74.6%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=115--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: False
+# episodes completed so far: 115
+# successes: 85 (73.9%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=116--success=True--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: True
+# episodes completed so far: 116
+# successes: 86 (74.1%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=117--success=True--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: True
+# episodes completed so far: 117
+# successes: 87 (74.4%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=118--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: False
+# episodes completed so far: 118
+# successes: 87 (73.7%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=119--success=True--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: True
+# episodes completed so far: 119
+# successes: 88 (73.9%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=120--success=True--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: True
+# episodes completed so far: 120
+# successes: 89 (74.2%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=121--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: False
+# episodes completed so far: 121
+# successes: 89 (73.6%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=122--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: False
+# episodes completed so far: 122
+# successes: 89 (73.0%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=123--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: False
+# episodes completed so far: 123
+# successes: 89 (72.4%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=124--success=True--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: True
+# episodes completed so far: 124
+# successes: 90 (72.6%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=125--success=True--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: True
+# episodes completed so far: 125
+# successes: 91 (72.8%)
+
+Task: pick up the chocolate pudding and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=126--success=False--task=pick_up_the_chocolate_pudding_and_place_it_in_the_.mp4
+Success: False
+# episodes completed so far: 126
+# successes: 91 (72.2%)
+Current task success rate: 0.5
+Current total success rate: 0.7222222222222222
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 1...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=127--success=False--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 127
+# successes: 91 (71.7%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 2...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=128--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 128
+# successes: 92 (71.9%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 3...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=129--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 129
+# successes: 93 (72.1%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 4...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=130--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 130
+# successes: 94 (72.3%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 5...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=131--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 131
+# successes: 95 (72.5%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 6...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=132--success=False--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 132
+# successes: 95 (72.0%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 7...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=133--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 133
+# successes: 96 (72.2%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 8...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=134--success=False--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 134
+# successes: 96 (71.6%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 9...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=135--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 135
+# successes: 97 (71.9%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 10...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=136--success=False--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: False
+# episodes completed so far: 136
+# successes: 97 (71.3%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 11...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=137--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 137
+# successes: 98 (71.5%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 12...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=138--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 138
+# successes: 99 (71.7%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 13...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=139--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 139
+# successes: 100 (71.9%)
+
+Task: pick up the orange juice and place it in the basket
+Starting episode 14...
+Saved rollout MP4 at path ./rollouts/2025_08_21/2025_08_21-15_40_27--episode=140--success=True--task=pick_up_the_orange_juice_and_place_it_in_the_baske.mp4
+Success: True
+# episodes completed so far: 140
+# successes: 101 (72.1%)
+Current task success rate: 0.7142857142857143
+Current total success rate: 0.7214285714285714
