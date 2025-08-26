@@ -1,5 +1,6 @@
 
-# command
+#  데이터셋 만들기 command
+## 데이터셋 모으기
 ```
 python experiments/robot/libero/run_libero_dataset.py \  
 --model_family openvla \  
@@ -10,6 +11,14 @@ python experiments/robot/libero/run_libero_dataset.py \
 --seed 42 \  
 --log_dataset True \  
 --dataset_dir ./rollouts_libero  
+```
+
+## 데이터셋에 failure_tokens.npy 만들고 라벨링하기
+'''  
+~/choi_ws/openvla/rollouts_libeo  
+python3 init_failure_tokens.py  
+python3 set_failure_tokens.py  
+python3 check_failure_token_npy.py  
 ```
 
 # Goal
