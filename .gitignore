@@ -146,3 +146,8 @@ data/
 rollouts/
 rollouts_libero/
 wandb/
+
+# Failure finetuning artifacts (explicit paths)
+experiments/robot/failure_finetuning/test_checkpoints/
+experiments/robot/failure_finetuning/failure_eval_logs/
+experiments/robot/failure_finetuning/rollouts/
