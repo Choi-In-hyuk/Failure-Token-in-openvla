@@ -151,3 +151,4 @@ wandb/
 experiments/robot/failure_finetuning/test_checkpoints/
 experiments/robot/failure_finetuning/failure_eval_logs/
 experiments/robot/failure_finetuning/rollouts/
+experiments/robot/failure_finetuning/continued_failure_detection_checkpoints/
