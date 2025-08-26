@@ -12,7 +12,11 @@ python experiments/robot/libero/run_libero_dataset.py \
 --log_dataset True \  
 --dataset_dir ./rollouts_libero  
 ```
-
+## 실패한 에피소드 찾기
+```
+~/choi_ws/openvla/rollouts/날짜
+find . -type f -name "*success=False*" | sed -E 's/.*episode=([0-9]+).*/\1/'
+```
 ## 데이터셋에 failure_tokens.npy 만들고 라벨링하기
 ```  
 cd ~/choi_ws/openvla/rollouts_libeo  
