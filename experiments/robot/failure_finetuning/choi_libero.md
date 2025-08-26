@@ -42,11 +42,11 @@ python train_failure_detection.py \
 ```
 cd ~/choi_ws/openvla/experiments/robot/failure_finetuning   
 python train_failure_checkpoint.py \
-  --checkpoint_path ./test_checkpoints/best_model \
-  --rollouts_dir ./rollouts_libero \
-  --run_id EVAL-libero_object-openvla-NEW_RUN_ID \
-  --learning_rate 5e-5 \
-  --num_epochs 5
+    --checkpoint_path ./test_checkpoints/best_model \
+    --rollouts_dir /home/choi/choi_ws/openvla/rollouts_libero \
+    --run_id EVAL-libero_object-openvla-2025_08_22-14_51_38 \
+    --learning_rate 5e-5 \
+    --num_epochs 5
 ```
 
 ## eval
