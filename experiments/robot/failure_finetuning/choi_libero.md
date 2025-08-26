@@ -41,7 +41,7 @@ python train_failure_detection.py \
 ## best_model 체크포인트를 이어서 학습
 ```
 cd ~/choi_ws/openvla/experiments/robot/failure_finetuning   
-python train_failure_detection_continued.py \
+python train_failure_checkpoint.py \
   --checkpoint_path ./test_checkpoints/best_model \
   --rollouts_dir ./rollouts_libero \
   --run_id EVAL-libero_object-openvla-NEW_RUN_ID \
