@@ -1,5 +1,5 @@
 """
-run_libero_eval.py
+run_libero_dataset.py
 
 Runs a model in a LIBERO simulation environment and logs per-episode rollouts
 (images/actions/meta) to build a dataset for finetuning (e.g., RLDS conversion later).
