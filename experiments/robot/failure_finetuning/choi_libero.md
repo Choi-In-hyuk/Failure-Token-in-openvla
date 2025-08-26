@@ -12,6 +12,24 @@ python experiments/robot/libero/run_libero_dataset.py \
 --log_dataset True \
 --dataset_dir ./rollouts_libero
 ```
+## 여러 seed 돌리기##
+```
+#!/bin/bash
+for seed in 42 43 44 45; do
+    echo "Running with seed: $seed"
+    python experiments/robot/libero/run_libero_dataset.py \
+        --model_family openvla \
+        --pretrained_checkpoint openvla/openvla-7b-finetuned-libero-object \
+        --task_suite_name libero_object \
+        --center_crop True \
+        --num_trials_per_task 40 \
+        --seed $seed \
+        --log_dataset True \
+        --dataset_dir ./rollouts_libero \
+        --run_id_note "seed_${seed}"
+done
+```
+
 ## 실패한 에피소드 찾기
 ```
 ~/choi_ws/openvla/rollouts/날짜
