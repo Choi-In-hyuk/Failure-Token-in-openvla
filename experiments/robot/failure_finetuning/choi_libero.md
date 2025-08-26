@@ -26,7 +26,7 @@ python3 check_failure_token_npy.py
 ```
 
 # 학습 및 실행 command
-## 학습
+## pretrain된 모델 처음 학습
 ```
 cd ~/choi_ws/openvla/experiments/robot/failure_finetuning   
 python train_failure_detection.py \
@@ -36,6 +36,17 @@ python train_failure_detection.py \
     --learning_rate 1e-4 \
     --num_epochs 2 \
     --save_dir ./test_checkpoints
+```
+
+## best_model 체크포인트를 이어서 학습
+```
+cd ~/choi_ws/openvla/experiments/robot/failure_finetuning   
+python train_failure_detection_continued.py \
+  --checkpoint_path ./test_checkpoints/best_model \
+  --rollouts_dir ./rollouts_libero \
+  --run_id EVAL-libero_object-openvla-NEW_RUN_ID \
+  --learning_rate 5e-5 \
+  --num_epochs 5
 ```
 
 ## eval
