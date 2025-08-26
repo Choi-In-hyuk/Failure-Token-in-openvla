@@ -2,15 +2,15 @@
 #  데이터셋 만들기 command
 ## 데이터셋 모으기
 ```
-python experiments/robot/libero/run_libero_dataset.py \  
---model_family openvla \  
---pretrained_checkpoint openvla/openvla-7b-finetuned-libero-object \  
---task_suite_name libero_object \  
---center_crop True \  
---num_trials_per_task 5 \  
---seed 42 \  
---log_dataset True \  
---dataset_dir ./rollouts_libero  
+python experiments/robot/libero/run_libero_dataset.py \
+--model_family openvla \
+--pretrained_checkpoint openvla/openvla-7b-finetuned-libero-object \
+--task_suite_name libero_object \
+--center_crop True \
+--num_trials_per_task 5 \
+--seed 42 \
+--log_dataset True \
+--dataset_dir ./rollouts_libero
 ```
 ## 실패한 에피소드 찾기
 ```
