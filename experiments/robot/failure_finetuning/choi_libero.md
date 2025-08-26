@@ -14,13 +14,35 @@ python experiments/robot/libero/run_libero_dataset.py \
 ```
 
 ## 데이터셋에 failure_tokens.npy 만들고 라벨링하기
-'''  
-~/choi_ws/openvla/rollouts_libeo  
+```  
+cd ~/choi_ws/openvla/rollouts_libeo  
 python3 init_failure_tokens.py  
 python3 set_failure_tokens.py  
 python3 check_failure_token_npy.py  
 ```
 
+# 학습 및 실행 command
+## 학습
+```
+cd ~/choi_ws/openvla/experiments/robot/failure_finetuning   
+python train_failure_detection.py \
+    --rollouts_dir ../../../rollouts_libero \
+    --run_id EVAL-libero_object-openvla-2025_08_21-15_40_27 \
+    --batch_size 2 \
+    --learning_rate 1e-4 \
+    --num_epochs 2 \
+    --save_dir ./test_checkpoints
+```
+
+## eval
+```
+cd ~/choi_ws/openvla/experiments/robot/failure_finetuning   
+python run_failure_eval.py \
+    --model_checkpoint ./test_checkpoints/best_model \
+    --task_suite_name libero_object \
+    --center_crop True \
+    --num_trials_per_task 5
+```
 # Goal
 좋아, “전체 실패/성공을 예측(또는 인지)”하는 방향으로 내가 권하는 설계를 한꺼번에 정리해줄게. 핵심은 전역 실패 확률을 매 타임스텝마다 업데이트하게 해서, 네가 로그에서 본 “진동(앞뒤 왕복), 반복 집기, 진전 없음” 같은 패턴을 학습적으로 감지하도록 만드는 거야.
 
