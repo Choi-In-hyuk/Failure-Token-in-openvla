@@ -9,6 +9,13 @@ Usage:
         --task_suite_name [ libero_spatial | libero_object | libero_goal | libero_10 | libero_90 ] \
         --center_crop [ True | False ] \
         --run_id_note <OPTIONAL TAG TO INSERT INTO RUN ID FOR LOGGING>
+
+        
+python run_failure_eval.py \
+    --model_checkpoint ./test_checkpoints/best_model \
+    --task_suite_name libero_object \
+    --center_crop True \
+    --num_trials_per_task 5
 """
 
 import os
